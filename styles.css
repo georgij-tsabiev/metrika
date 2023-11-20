@@ -154,4 +154,16 @@ a {
   font-size: 30px;
   line-height: normal;
   letter-spacing: -0.9px;
+  transition: 0.3s ease-in-out;
+}
+
+.projects__view-all:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+  transition: 0.3s ease-in-out;
+}
+
+.projects__view-all:active {
+  background-color: #8b3737;
+  transition: 0.3s ease-in-out;
 }
