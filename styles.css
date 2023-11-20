@@ -167,3 +167,56 @@ a {
   background-color: #8b3737;
   transition: 0.3s ease-in-out;
 }
+
+.services {
+  background-color: #121212;
+  padding: 150px 0;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.services__title {
+  margin-bottom: 34px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.services__item-link {
+  display: block;
+  min-height: 270px;
+  margin-bottom: 15px;
+}
+
+.services__item-link--planning-solution {
+  background-image: url("planning-solution.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__item-link--design-project {
+  background-image: url("design-project.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__item-link--author-supervision {
+  background-image: url("author-supervision.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__item-link--equipment {
+  background-image: url("equipment.jpg");
+  background-repeat: no-repeat;
+}
+
+.services__item-text {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
