@@ -44,7 +44,7 @@ a {
   flex-direction: column;
   min-height: 650px;
   margin-bottom: 150px;
-  background-image: url("../resources/hero-interior.jpg");
+  background-image: url("hero-interior.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
