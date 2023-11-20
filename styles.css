@@ -71,6 +71,7 @@ a {
 .about-us {
   display: flex;
   flex-direction: column;
+  margin-bottom: 150px;
 }
 
 .about-us__title {
@@ -101,4 +102,56 @@ a {
   font-size: 20px;
   line-height: normal;
   letter-spacing: -0.6px;
+}
+
+.projects {
+  padding-bottom: 150px;
+}
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  margin-bottom: 90px;
+}
+
+.projects__image {
+  margin-bottom: 15px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+  color: #121212;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.projects__item-title {
+  margin-bottom: 15px;
+  color: #121212;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.projects__view-more {
+  color: #ad1818;
+  font-size: 20px;
+  line-height: normal;
+  letter-spacing: -0.6px;
+}
+
+.projects__view-all {
+  display: block;
+  width: 100%;
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+  padding: 56px;
+  color: #ad1818;
+  text-align: center;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
 }
