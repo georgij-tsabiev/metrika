@@ -256,36 +256,28 @@ a {
   text-transform: uppercase;
 }
 
-.services__item-link {
+.services__item-img {
   display: block;
   min-height: 270px;
   margin-bottom: 15px;
 }
 
-.services__item-link:hover {
-  opacity: 0.8;
-}
-
-.services__item-link:active {
-  opacity: 0.7;
-}
-
-.services__item-link--planning-solution {
+.services__item-img--planning-solution {
   background-image: url("planning-solution.jpg");
   background-repeat: no-repeat;
 }
 
-.services__item-link--design-project {
+.services__item-img--design-project {
   background-image: url("design-project.jpg");
   background-repeat: no-repeat;
 }
 
-.services__item-link--author-supervision {
+.services__item-img--author-supervision {
   background-image: url("author-supervision.jpg");
   background-repeat: no-repeat;
 }
 
-.services__item-link--equipment {
+.services__item-img--equipment {
   background-image: url("equipment.jpg");
   background-repeat: no-repeat;
 }
