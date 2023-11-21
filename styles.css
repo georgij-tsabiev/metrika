@@ -316,3 +316,69 @@ a {
   line-height: normal;
   letter-spacing: -0.9px;
 }
+
+.contacts {
+  padding: 150px 120px;
+}
+
+.contacts__title {
+  position: relative;
+  margin-bottom: 32px;
+  padding-top: 36px;
+  color: #121212;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+}
+
+.contacts__title::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  background-image: url("icon-phone.svg");
+  background-repeat: no-repeat;
+}
+
+.contacts__phone {
+  margin-bottom: 30px;
+  display: block;
+  color: #121212;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+}
+
+.contacts__phone:hover {
+  color: #ad1818;
+}
+
+.contacts__phone:active {
+  opacity: 0.3;
+}
+
+.contacts__mail {
+  display: block;
+  color: #121212;
+  opacity: 0.5;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -1.8px;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px;
+}
+
+.contacts__mail:hover {
+  opacity: 1;
+  text-decoration-color: #ad1818;
+}
+
+.contacts__mail:active {
+  opacity: 0.3;
+  color: #ad1818;
+}
