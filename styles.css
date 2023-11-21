@@ -293,3 +293,26 @@ a {
   line-height: normal;
   letter-spacing: -0.9px;
 }
+
+.apartment-project {
+  position: relative;
+}
+
+.apartment-project__link-image {
+  display: block;
+}
+
+.apartment-project__image {
+  width: 100%;
+}
+
+.apartment-project__link {
+  max-width: 443px;
+  position: absolute;
+  bottom: 60px;
+  left: 125px;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
