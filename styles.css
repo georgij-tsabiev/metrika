@@ -114,13 +114,13 @@ a {
   letter-spacing: -0.6px;
 }
 
-.about-us {
+.about {
   display: flex;
   flex-direction: column;
   margin-bottom: 150px;
 }
 
-.about-us__title {
+.about__title {
   margin-bottom: 30px;
   color: #121212;
   font-size: 18px;
@@ -129,7 +129,7 @@ a {
   text-transform: uppercase;
 }
 
-.about-us__text {
+.about__text {
   margin-bottom: 26px;
   padding-left: 3px;
   max-width: 1048px;
