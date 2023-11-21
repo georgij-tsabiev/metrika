@@ -82,7 +82,7 @@ a {
 }
 
 .page {
-  font-family: "Manrope", "Tahoma", sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .hero {
@@ -145,7 +145,7 @@ a {
   padding: 20px 40px;
   background-color: #ad1818;
   color: #ffffff;
-  font-family: "Manrope", "Tahoma", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
   line-height: normal;
   letter-spacing: -0.6px;
