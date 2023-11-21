@@ -322,7 +322,7 @@ a {
 }
 
 .contacts {
-  padding: 148px 120px 161px 120px;
+  padding: 148px 0 161px 0;
 }
 
 .contacts__title {
