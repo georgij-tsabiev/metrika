@@ -320,6 +320,14 @@ a {
   letter-spacing: -0.9px;
 }
 
+.apartment-project__link:hover {
+  opacity: 0.7;
+}
+
+.apartment-project__link:active {
+  opacity: 0.3;
+}
+
 .contacts {
   padding: 148px 120px 161px 120px;
 }
