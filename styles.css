@@ -211,7 +211,7 @@ a {
   opacity: 0.4;
 }
 
-.projects__view-all {
+.projects__btn {
   display: block;
   width: 100%;
   border: 1px solid #ad1818;
@@ -225,13 +225,13 @@ a {
   transition: 0.3s ease-in-out;
 }
 
-.projects__view-all:hover {
+.projects__btn:hover {
   color: #ffffff;
   background-color: #ad1818;
   transition: 0.3s ease-in-out;
 }
 
-.projects__view-all:active {
+.projects__btn:active {
   background-color: #8b3737;
   transition: 0.3s ease-in-out;
 }
