@@ -41,7 +41,7 @@ a {
   padding: 33px 15px;
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 50px;
 }
 
 .header__logo-link {
@@ -393,19 +393,7 @@ a {
   justify-content: center;
 }
 
-.footer .nav__item:nth-child(1) {
-  margin-right: 53px;
-}
-
-.footer .nav__item:nth-child(2) {
-  margin-right: 56px;
-}
-
-.footer .nav__item:nth-child(3) {
-  margin-right: 55px;
-}
-
-.footer .nav__item:nth-child(:not(:last-child)) {
+.footer .nav__item:not(:last-child) {
   margin-right: 55px;
 }
 
