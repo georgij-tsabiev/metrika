@@ -37,10 +37,11 @@ a {
 }
 
 .header__wrapper {
+  margin-bottom: 37px;
   padding: 33px 15px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 37px;
+  gap: 10px;
 }
 
 .header__logo-link {
@@ -57,6 +58,7 @@ a {
 
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 60px;
 }
 
@@ -400,6 +402,10 @@ a {
 }
 
 .footer .nav__item:nth-child(3) {
+  margin-right: 55px;
+}
+
+.footer .nav__item:nth-child(:not(:last-child)) {
   margin-right: 55px;
 }
 
